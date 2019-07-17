@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+    import React, { Component } from 'react';
 // The connect method from react-redux is aware of what the store looks like. We need to import it to make our Posts component also aware of the store
 import { connect } from 'react-redux';
 // getPosts is the action creator function that we will dispatch our asynchronous api call with
